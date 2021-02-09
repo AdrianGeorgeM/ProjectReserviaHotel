@@ -35,11 +35,11 @@
 
 nav {
     display: flex;
-    flex-direction: row;
+    flex-flow:  row wrap;
     justify-content: flex-end;
-    align-items: center;
+    /* align-items: center; */
     /* align center!!! */
-    flex-wrap: wrap;
+   
     flex-grow: 2;
     border: 2px solid red;
 }
@@ -50,7 +50,7 @@ nav {
     text-decoration: none;
     color: gray;
     border: none;
-    /* padding: 2.78em; */
+    padding: 2.78em;
 }
 .nav-links:hover {
     border-top: #0065FC;
@@ -145,7 +145,79 @@ nav {
     .search-icon {
         color: #0065fc;
     }
-   
-   
+    /* End search bar */
 
+    /* FILTERS */
+    .filter-container{
+        display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin-bottom: 2.2em;
+    }
+
+    .filter-text {
+        color: black;
+        font-weight: 700;
+        padding: 0.8em;
+    }
+
+    .filter-items {
+        border: solid 0.13em #f2f2f2;   
+        /* The initial keyword is what is declared as the property where the initial value is the resulting output #F2F2F2 */
+        color: initial;
+        border-radius: 2em;
+        padding-right: 1.5em;
+        font-weight: 700;
+        text-decoration: none;
+        border-left: none;
+    }
+
+    .money, .child, .heart, .dog {
+        color: #0065FC;
+        background-color: #DEEBFF;
+        border: none;
+        border-radius: 3em;
+        padding: 0.8em;
+        margin-right: 1em;
+    }
+   
+.filter-items:hover {
+    background-color: #DEEBFF;
+    box-shadow: 0 0 0.3em 0.03em #a3a3a33a;
+}
+.filter-items:visited{
+    color:initial;
+}
+
+.lowcost:visited, .family:visited, .romantic:visited, .pets:visited {
+    color:initial;
+}
+    /* END FILTERS */
+
+    /* Info */
+    .info-container{
+        display: flex;
+    flex-direction: row;
+    width: 22em;
+    margin-bottom: 1.2em;
+
+    }
+
+    .fa-info {
+        color: #0065FC;
+        border: solid 0.13em #F2F2F2;
+        border-radius: 4em;
+        padding: 0.9em 0.8em;
+        font-size: 0.5em;
+        height: 2.8em;
+        margin-right: 1.2em;
+        align-self: center
+    }
+
+    #info-text {
+        color: gray;
+        font-size: 0.8em;
+    }
+    /* End Info */
  
