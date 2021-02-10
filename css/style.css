@@ -602,7 +602,7 @@ footer {
     .fa-map-marker-alt{
         background-color: #F2F2F2;
         border-radius: 1em 0 0 1em;
-        padding: 0.8em;
+        padding: 1em 1.6em;
         text-align: center;
         width: 1.2em;
     }
@@ -847,6 +847,8 @@ footer {
     /* search bar */
     .search-form {
         justify-content: center;
+        margin-right: 9em;
+        margin-left: -2em;
     }
     .search-input {
         width: 70%;
@@ -854,14 +856,14 @@ footer {
         padding: 0.8em;
     }
     .fa-map-marker-alt{
-        padding: 1em 0.8em;
+        padding: 1em 1.3em;
         width: 1.8em;
     }
     .search-button {
         border-radius: 0.8em;
         color: transparent;
-        padding: 0 0 0.2em 1em;
-        width: 2em;
+        padding: 1em;
+        width: 3em;
         text-align: initial;
     }
    
