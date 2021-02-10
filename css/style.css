@@ -221,3 +221,100 @@ nav {
     }
     /* End Info */
  
+ /* Accomodations and Most Popular */
+     /* Accomodations Side */
+     .main-container{
+         display: flex;
+         flex-flow: row wrap;
+         justify-content: space-between;
+     }
+     .accommodations{
+        background-color: #F2F2F2;
+        border-radius: 2em;
+        padding: 1em 2em 2em 2em;
+        margin-bottom: 2em;
+        height: 35.5em;
+     }
+
+     .accommodations-title{
+        margin-bottom: 1em;
+     }
+
+     .hotel-rooms{
+        display: flex;
+        flex-flow:row wrap;
+        justify-content: space-between;
+        width: 49.5em;
+        align-content: space-between;
+        height: 26em;
+        margin-bottom: 2.8em;
+     }
+     .hotel:hover {
+        box-shadow: 0 0 0.5em 0.05em #3f3f3f;
+    }
+
+    .hotel:visited {
+        color: initial;
+    }
+    .hotel {
+        background-color: white;
+        /* width: 15.3em; */
+        /* width:245px */
+        border-radius: 1em;
+        box-shadow: 0 0 0.5em 0.05em #a3a3a3;
+        text-decoration: none;
+    }
+    .hotel-images {
+        width: 14.7em;
+       padding: .4em;
+        object-fit: cover;
+        height: 7em;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        /* margin-bottom: .1em; */
+    }
+
+    .hotel-name {
+        /* padding-top: 0.8em; */
+        font-weight: 700;
+        /* padding-left: 0.5em;
+        margin-bottom: -0.5em; */
+        color: black; 
+        /* padding-bottom: .5em; */
+        /* padding-left: .4em; */
+        /* padding: 3.1em .6em; */
+        margin: .1em .9em;
+        padding-bottom: .2em;
+    }
+
+    .hotel-price {
+        font-size: 0.8em;
+        padding-left: 1.1em;
+        color: black;
+        margin-bottom: .5em;
+    }
+
+    .rating{
+      list-style: none;
+      display: flex;
+       font-size: 0.70em;
+       padding-left: 1.1em;
+       padding-bottom: .7em;
+    }
+    
+    .fa-star{
+        color: #0065FC;
+    }
+ .far{
+        /* background: red; */
+        color: lightgray;
+    }
+
+    #show-more-link {
+    text-decoration: none;
+    color: black;
+}
+
+#show-more-link:visited {
+    color: initial;
+}
