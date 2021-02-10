@@ -6,10 +6,6 @@
   font-family:'Raleway', sans-serif;
  } 
 
- body {
-    font-family: 'Raleway', sans-serif;
-  
-}
 .wrapper{
     margin: 0em auto;
     width: 95%;
@@ -644,9 +640,12 @@ footer {
     .filter-container {
         flex-direction: column;
         align-items: flex-start;
+        width: 70%;
     }
     .filter-items{
         margin-bottom: 0.8em;
+        padding-right: 0.2em;
+        
     }
      /* info */
      .info-container {
@@ -870,6 +869,11 @@ footer {
         align-items: flex-start;
         width: 90%;
     }
+
+    .filter-items{
+        margin-bottom: .5em;
+       
+    }
     .lowcost, .family, .romantic, .pets {
         margin-bottom: 0.8em;
     }
@@ -1017,6 +1021,10 @@ footer {
         width: 80%;
     }
 
+    .filter-items{
+        margin-bottom: .5em;
+       
+    }
     .lowcost, .family, .romantic, .pets {
         margin-bottom: 0.8em;
     }
