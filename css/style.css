@@ -92,9 +92,12 @@ nav {
      .search-form {
         display: flex;
         flex-direction: row;
-        width: auto;
+        width: 17%;
         margin-bottom: 1.8em;
         margin-top: 1.1em;
+        border: 0.09em solid lightgray;
+        border-radius: 1em;
+        border-right: none;
     }
     
     .fa-map-marker-alt {
@@ -464,10 +467,12 @@ justify-content: space-between;
     padding-left: 1em;
     margin-top: 0.6em;
 }
-
-.activities-link > img:hover{
-    box-shadow: 0 0 0.5em 0.05em #3f3f3f;
+#Old-Port:hover, #Pomegues-Fort:hover, #Friolus-Island:hover,
+#Calanques-National-Park:hover, #Notre-Dame-de-la-Garde:hover,
+#Longchamp-Park:hover {
+        box-shadow: 0 0 0.5em 0.05em #3f3f3f;
 }
+
 .activities-title{
     margin-bottom: 1em;
 }
