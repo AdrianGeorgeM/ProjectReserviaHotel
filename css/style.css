@@ -630,11 +630,15 @@ footer {
         cursor: pointer;
         font-weight: 700;
         font-size: 1em;
-        padding: 0.8em 0.08em 0.8em 0.8em;
+        /* padding: 0.8em 0.08em 0.8em 0.8em; */
         width: 4.8em;
     }
     .search-icon {
-        color: #0065fc;
+        /* color: #0065fc; */
+        color: #fff;
+    }
+    .abracaDabra{
+        display: none;
     }
     /* filters*/
     .filter-container {
@@ -860,8 +864,14 @@ footer {
         width: 2em;
         text-align: initial;
     }
+   
+
     .search-icon {
-        color: white;
+        /* color: #0065fc; */
+        color: #fff;
+    }
+    .abracaDabra{
+        display: none;
     }
     /* filters*/
     .filter-container {
@@ -1007,7 +1017,7 @@ footer {
         margin: 0px;
         width: 100%;
     }
-    .intro, .search-container, .filter-container {
+    .intro, .search-form, .filter-container {
         padding-left: 5%;
         padding-right: 5%;
     }
