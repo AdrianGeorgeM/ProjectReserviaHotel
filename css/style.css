@@ -8,6 +8,9 @@
 
  body {
     font-family: 'Raleway', sans-serif;
+  
+}
+.wrapper{
     margin: 0em auto;
     width: 95%;
 }
@@ -30,7 +33,6 @@
 
 .header-logo {
     flex-grow: 6;
-    border: 2px solid orangered;
 }
 
 nav {
@@ -41,7 +43,6 @@ nav {
     /* align center!!! */
    
     flex-grow: 2;
-    border: 2px solid red;
 }
 
 .nav-links {
@@ -69,7 +70,6 @@ nav {
     align-items: center;
     padding: 2.78em;
     flex-grow: 1;
-    border: 1px solid red;
 }
 /*---End Header and Navigation Menu---*/
 
@@ -79,7 +79,6 @@ nav {
     h2 {
         margin-bottom: 0;
         font-weight: bold;
-        border: 1px solid red;
     }
 
     
@@ -326,10 +325,9 @@ nav {
     border-radius: 2em;
     padding: 1em 2em 2em 2em;
     height: 35.5em;
-    border: 1px solid blue;
     /* width: 514px; */
     /* margin: 0 auto; */
-    margin-right: 5em;
+    margin-right: 3em;
 }
 .most-popular_title{
     margin-bottom: 1em;
@@ -361,6 +359,159 @@ nav {
     object-fit: cover;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
-    border: 2px solid red;
     margin: .3em .3em;
+    object-fit: cover;
+
 }
+.popular-description{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.most-popular_hotel:hover {
+    box-shadow: 0 0 0.5em 0.05em #3f3f3f;
+}
+
+.popular-link:visited {
+    color: initial;
+}
+/* End Most Popular */
+/* ---------------------------------------------- */
+   
+/* ACTIVITIES  */
+.activities-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 4em;
+}
+
+.column-container-1,
+.column-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.activities-link {
+    text-decoration: none;
+}
+
+.activities-link:visited {
+    color: initial;
+}
+
+#Old-Port,
+#Calanques-National-Park{
+    background-color: white;
+    width: 18em;
+    height: 30.5em;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em 0.05em #a3a3a3;
+}
+#Pomegues-Fort{
+    background-color: white;
+    width: 18em;
+    height: 19em;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em 0.05em #a3a3a3;
+}
+#Friolus-Island {
+    background-color: white;
+    width: 18em;
+    height: 9em;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em 0.05em #a3a3a3;
+}
+
+#Notre-Dame-de-la-Garde,
+#Longchamp-Park  {
+    background-color: white;
+    width: 18em;
+    height: 14em;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em 0.05em #a3a3a3;
+}
+
+.oldport-images,
+.calanques-images {
+    width: 18em;
+    height: 27.5em;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.pomegues-images {
+    width: 18em;
+    height: 16em;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.notredame-images,
+.longchamp-images {
+    width: 18em;
+    height: 11em;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.friolus-images {
+    width: 18em;
+    height: 6em;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.activity-name {
+    color: black;
+    font-weight: 700;
+    padding-left: 1em;
+    margin-top: 0.6em;
+}
+
+.activities-link > img:hover{
+    box-shadow: 0 0 0.5em 0.05em #3f3f3f;
+}
+.activities-title{
+    margin-bottom: 1em;
+}
+/* End ACTIVITIES  */
+
+
+/* Footer */
+footer {
+    background-color: #F2F2F2;
+    position: relative;
+    margin: 0;
+    height: 11em;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 65em;
+    padding-left: 2.1875em;
+    padding-top: 1.3em;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.8em;
+    margin-top: 6em;
+}
+
+.footer-link:visited {
+    color: initial;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.p-footer {
+    margin: .4em 0;
+}
+/* End Footer */
