@@ -222,7 +222,7 @@ nav {
     /* End Info */
  
  /* Accomodations and Most Popular */
-     /* Accomodations Side */
+     /* Accomodations Marseille */
      .main-container{
          display: flex;
          flex-flow: row wrap;
@@ -317,4 +317,50 @@ nav {
 
 #show-more-link:visited {
     color: initial;
+}
+/* End Accomodations Marseille*/
+
+/* Most Popular */
+.most-popular{
+    background-color: #F2F2F2;
+    border-radius: 2em;
+    padding: 1em 2em 2em 2em;
+    height: 35.5em;
+    border: 1px solid blue;
+    /* width: 514px; */
+    /* margin: 0 auto; */
+    margin-right: 5em;
+}
+.most-popular_title{
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.most-popular_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 29.8em;
+}
+
+.most-popular_hotel{
+    background-color: white;
+    height: 8.8em;
+    width: 21.9em;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em 0.05em #a3a3a3;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+.most-popular_images{
+    width: 7.5em;
+    height: 8.2em;
+   /* padding: .9em; */
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border: 2px solid red;
+    margin: .3em .3em;
 }
