@@ -95,7 +95,6 @@ nav {
         width: 17%;
         margin-bottom: 1.8em;
         margin-top: 1.1em;
-        border: 0.09em solid lightgray;
         border-radius: 1em;
         border-right: none;
     }
@@ -854,6 +853,7 @@ footer {
         justify-content: center;
         margin-right: 9em;
         margin-left: -2em;
+        width: 60%;
     }
     .search-input {
         width: 70%;
