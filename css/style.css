@@ -772,7 +772,7 @@ footer {
     }
 
     .about, .our-accommodations, .assistance {
-        margin-bottom: 1em;
+        margin-bottom: 2em;
     }
 }
 /* End mobile Responsive */
@@ -862,8 +862,7 @@ footer {
     }
     /* search bar */
     .search-form {
-        justify-content: center;
-        width: 80%;
+        width: 60%;
     }
     .search-input {
         width: 70%;
