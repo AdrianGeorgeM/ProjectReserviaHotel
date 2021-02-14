@@ -244,7 +244,7 @@ nav {
         display: flex;
         flex-flow:row wrap;
         justify-content: space-between;
-        width: 49.5em;
+        width: 56.5em;
         align-content: space-between;
         height: 26em;
         margin-bottom: 2.8em;
@@ -258,14 +258,17 @@ nav {
     }
     .hotel {
         background-color: white;
-        /* width: 15.3em; */
+        /* width: 18.3em; */
+        width: 30%;
         /* width:245px */
         border-radius: 1em;
         box-shadow: 0 0 0.5em 0.05em #a3a3a3;
         text-decoration: none;
+        border: 1px solid blue;
     }
     .hotel-images {
-        width: 14.7em;
+        /* width: 14.7em; */
+        width: 100%;
        padding: .4em;
         object-fit: cover;
         height: 7em;
@@ -1032,7 +1035,7 @@ footer {
     }
 }
 /* end tablet large screen and landscape, small screen laptop  */
-@media all and (min-width: 769px) and (max-width: 1386px){
+@media all and (min-width: 769px) and (max-width: 1504px){
     
     .wrapper,
     body{
