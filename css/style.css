@@ -991,6 +991,11 @@ footer {
         width: 65%;
         margin: 0 auto;
     }
+
+    .activities-title{
+        margin-left: 18%;
+        margin-top: 5%;
+    }
     #Old-Port, #Pomegues-Fort, #Friolus-Island,
     #Calanques-National-Park, #Notre-Dame-de-la-Garde,
     #Longchamp-Park {
