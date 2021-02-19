@@ -307,9 +307,9 @@ nav {
     .fa-star{
         color: #0065FC;
     }
- .far{
-        /* background: red; */
-        color: lightgray;
+    .greyStar{
+        color: #e0dfdf;
+      
     }
 
     #show-more-link {
@@ -321,7 +321,6 @@ nav {
     color: initial;
 }
 /* End Accomodations Marseille*/
-
 /* Most Popular */
 .most-popular{
     background-color: #F2F2F2;
