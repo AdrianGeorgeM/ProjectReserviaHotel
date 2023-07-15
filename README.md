@@ -1,10 +1,10 @@
-# Reservia Website Prototype
+# Reservia Responsive Vacation Planning Tool
 
-This README document provides an overview of the Reservia website prototype project. It outlines the goals, specifications, and technical details to help you understand and communicate your project effectively.
+This README document provides an overview of the Reservia Responsive Vacation Planning Tool project. It outlines the goals, specifications, and technical details to help you understand and communicate your project effectively.
 
 ## Project Overview
 
-The Reservia website prototype aims to create a user-friendly platform for finding accommodation and activities in a chosen town. The website will allow users to search for accommodation based on various filters such as budget or atmosphere. Additionally, it will provide clickable maps for both accommodation and activities.
+The Reservia Responsive Vacation Planning Tool aims to create a user-friendly platform for finding accommodation and activities in a chosen town. The website will allow users to search for accommodation based on various filters such as budget or atmosphere. Additionally, it will provide clickable maps for both accommodation and activities.
 
 The project follows the principles of Material Design and includes mockups for desktop and mobile versions. The prototype will be developed using HTML and CSS, ensuring a responsive layout that adapts to different screen sizes. The website will be compatible with the latest versions of Google Chrome and Mozilla Firefox.
 
