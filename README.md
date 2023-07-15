@@ -1,6 +1,9 @@
 # Reservia Responsive Vacation Planning Tool
+The Reservia showcases my proficiency as a front-end developer, emphasizing my ability to translate design mockups into functional and visually appealing web interfaces.
 
 This README document provides an overview of the Reservia Responsive Vacation Planning Tool project. It outlines the goals, specifications, and technical details to help you understand and communicate your project effectively.
+
+I have demonstrated my proficiency in HTML, CSS, and responsive design. This project exemplifies my expertise as a front-end developer and serves as evidence of my skills in creating user-friendly and captivating web experiences.Overall, the Reservia Website Prototype stands as a testament to my professionalism and capabilities, positioning me as a skilled front-end developer capable of delivering outstanding web interfaces that captivate and satisfy users.'
 
 ## Project Overview
 
