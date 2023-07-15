@@ -251,6 +251,8 @@ nav {
      }
      .hotel:hover {
         box-shadow: 0 0 0.5em 0.05em #3f3f3f;
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
     }
 
     .hotel:visited {
@@ -1222,4 +1224,72 @@ footer {
     margin-bottom: 1em;
     margin-right: 0.8em;
 }
-}
+}/* CSS for Tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .tooltip::after {
+    content: "Filter options";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .tooltip:hover::after {
+    opacity: 1;
+  }
+  
+
+  /* CSS for Sign-Up Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .modal-content {
+      margin: 30% auto;
+    }
+  }
+  
