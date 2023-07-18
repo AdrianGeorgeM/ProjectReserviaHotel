@@ -249,6 +249,7 @@ nav {
         padding: 1em 2em 2em 2em;
         margin-bottom: 2em;
         height: 35.5em;
+   
      }
 
      .accommodations-title{
@@ -958,7 +959,7 @@ footer {
         float: right;
     }
     .most-popular_container {
-        width: 65%;
+        width: 80%;
         height: auto;
         margin: 0 auto;
     }
@@ -1115,7 +1116,7 @@ footer {
     .most-popular_container {
         width: 90%;
         flex-direction: row;
-        height: 17em;
+        height: 18em;
         margin: 0 auto;
     }
       /* .popular-link {
@@ -1165,7 +1166,10 @@ footer {
 .hotel {
     margin-bottom: 1.5em;
     width: 30%;
-    height: 85%;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
 }
 .hotel-images {
     width: 100%;
