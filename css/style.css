@@ -148,30 +148,45 @@ nav {
     /* End search bar */
 
     /* FILTERS */
-    .filter-container{
-        display: flex;
-    flex-flow:row wrap;
-    justify-content: space-between;
-    width: 60%;
+   /* FILTERS */
+.filter-container{
+    display: flex;
+    align-items: center;
+    width: 88%;
     margin-bottom: 2.2em;
-    }
+}
 
-    .filter-text {
-        color: black;
-        font-weight: 700;
-        padding: 0.8em;
-    }
+.filter-text {
+    color: black;
+    font-weight: 700;
+    padding: 0.8em;
+}
 
-    .filter-items {
-        border: solid 0.13em #f2f2f2;   
-        /* The initial keyword is what is declared as the property where the initial value is the resulting output #F2F2F2 */
-        color: initial;
-        border-radius: 2em;
-        padding-right: 1.5em;
-        font-weight: 700;
-        text-decoration: none;
-        border-left: none;
-    }
+.filter-items-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.filter-items {
+    border: solid 0.13em #f2f2f2;   
+    color: initial;
+    border-radius: 2em;
+    /* padding-right: 1.5em; */
+    font-weight: 700;
+    text-decoration: none;
+    border-left: none;
+    width: 277px; /* Adjust this as per your requirements */
+    height: 67px; /* Adjust this as per your requirements */
+    box-sizing: border-box;
+    margin: 0.5em;
+    flex: 0 0 auto; /* Prevents item from growing or shrinking */
+}
+
+
+
 
     .money, .child, .heart, .dog {
         color: #0065FC;
@@ -1063,7 +1078,7 @@ footer {
     .filter-container {
         flex-direction: row;
         align-items: flex-start;
-        width: 80%;
+        width: 100%;
     }
 
     .filter-items{
