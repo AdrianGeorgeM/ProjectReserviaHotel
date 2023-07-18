@@ -166,7 +166,7 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 100%;
 }
 
@@ -887,7 +887,7 @@ footer {
     }
     /* search bar */
     .search-form {
-        width: 60%;
+        width: 100%;
     }
     .search-input {
         width: 70%;
@@ -1188,7 +1188,7 @@ footer {
     margin: 0 auto;
 }
 .activities-title{
-    margin-left: 3em;
+    margin-left: 1.4em;
     margin-top: 1em;
 }
 .column-container-1 {
