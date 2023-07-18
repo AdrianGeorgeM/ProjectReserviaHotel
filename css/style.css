@@ -982,11 +982,11 @@ footer {
     }
     .accommodations-title {
         margin: 2em auto;
-        width: 65%;
+        width: 80%;
     }
     .hotel-rooms {
         flex-direction: column;
-        width: 65%;
+        width: 80%;
         height: auto;
         margin: 0 auto;
     }
